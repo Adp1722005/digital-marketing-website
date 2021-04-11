@@ -31,8 +31,8 @@
   border: 2px solid #007bff;
 }
 .testimonial-title span {
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .testimonial-content {

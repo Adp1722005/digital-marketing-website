@@ -1,115 +1,216 @@
+body{
+    width:100%;
+}
 #nav {
     width:100%;
-    height:15vh;
-         margin-left: -8px;
-         margin-bottom: 10px;
+    height:90px;
     background-color:#007bff; 
-    /* padding-bottom: -100px;
-    margin-bottom: -100px; */
-    position: fixed;
-    top:0;
+   margin:-8px 0 0 -8px;
+   padding:0;
     z-index:1;
     display: block;
-   
-}
-
+    }
+    #nav .checkbtn{
+      font-size:50px;
+      float:right;
+      line-height:110px;
+      margin-right:40px;
+      cursor: pointer;
+      display:block;
+    }
+    #nav input{
+      display: none;
+    }
+    #nav #checked{
+      display:none;
+    } 
     
     #nav #logo{
-      width:60px; 
+     width:50px; 
      display:inline-block;
-     border: 3px ridge #000000;
+     border: 3px ridge #0e49b5;
      border-radius: 100px;
      margin: 0.7rem;
-     
+     position: relative;
+     top: 7px;
     }
     #nav .name{
-      margin-top: 15px;
-      margin-left:5px;
+      display: inline-block;
+      margin-top: 10px;
       padding-top: 0;
       position: relative;
       bottom:30px;
-      display:inline-block;
-           font-size:20px;
-      color:#ffffff;
       font-family: 'Times new roman';
     }
     
      #nav ul{
+      position:fixed;
       width:100%;
       height:40vh;
       top:80px;
-      opacity:0.8;
-      float: right;
-         position: relative;
-         bottom:450px;
-         margin:0.5em;
-           left:600px;
-           background-color: transparent;
+      left:-150%;
+      text-align: center;
+      transition:all .5s e#ffffff;
+      opacity:0.5;
     }
     
     #nav ul li{
+      display:block;
       list-style-type: none;
       margin-top: 4em;
       color:white;
-      display:inline;
-      margin-bottom: -1em; 
-       padding-right: 1.5em;
-       position: relative;
-       bottom:170px;
     }
     #nav ul li a{
-      font-size:1.25rem;
-      color: white;
-      /* text-shadow:2px 1px lightsalmon; */
-        text-decoration: none;
-        font-weight: bolder;
-        opacity:0.8;
+      font-size:20px;
+      color:#ffffff;
+      font-weight: bolder;
+      text-decoration: none;
     }
-    #nav ul li a:hover{
-        opacity:1;
-        color:white;
-        font-size:1.5rem;
-      } 
-
+    #check:checked ~ul{
+      left:0;
+    } 
+    
+    .fa-bars{
+      font-size:50px;
+      line-height: 1.5;
+    }
 
     .footer{
         text-align: center;
         background-color:#000000;
-        width:1267px;
-        position: relative;
-        left:-5px;
-        height:60vh;
-        margin:0 -500px 0 -7px;
+        width:100%;
+        height:550px;
+        padding:0;
+        margin:-8px 0 0 -8px;
       }
       
       .footer ul li{
         list-style: none;
-        font-size: 1.25rem;
+        font-size: 1rem;
         color:#e1e5df;
         text-align: center;
       }
       
       .footer ul li a{
-        color:#E1e5df;
+        color:#e1e5df;
         text-decoration: none;
       }
       .footer h2{
-        font-size: 1.75rem;
-        color: #d9dfd7;
+        font-size: 1.5rem;
+        color: #e1e5df;
         text-align: center;
         padding: 20px 10px 0 30px;
-        font-family: Arial;
+        font-family: 'Times New Roman';
       }
       .footer .col .fa {
-        padding: 17px 17px 17px 17px;
+        padding: 10px 10px 10px 10px;
         width: 20px;
         height:20px;
-        margin:10px 8px 20px 8px;
+        margin:5px 8px 40px 8px;
         text-align: center;
         text-decoration: none;
         border-radius: 100%;
         background-color: darkblue;
         color: #ffffff;
+      }
+      .footer p{
+        padding-top: 0px;
+        color:#d9dfd7;
+        font-size: 1rem;
+      }
+      .footer .col{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: -20px;
+      }
+      @keyframes animate1{
+        from{
+          width: 10px;
+        }
+        to{
+          width:200px;
+        }
+      }
+      .footer #line{
+        animation-name: animate1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        border-radius: 100px;
+        border:2px solid lightslategray;
+        margin: 25px 100px 5px 50px;
+      }
+      @media screen and (min-width: 768px) {
+        @keyframes animate1{
+            from{
+              width: 10px;
+            }
+            to{
+              width:400px;
+            }
+          }
+           .footer #line{
+            position: relative;
+            bottom:20px;
+            left:175px;
+            margin:0;
+          }
+          
+      }
+
+      @media screen and (min-width: 1024px){
+        #nav{
+         height:15vh;
+       } 
+       #nav ul{
+         float: right;
+         position: relative;
+         bottom:500px;
+         margin:0.5em;
+           left:300px;
+           background-color: transparent;
+       }
+       #nav ul li {
+          display:inline;
+           margin-bottom: -1em;
+             padding-right: 2em;
+             position: relative;
+             bottom:160px;
+       }
+       #nav ul li a{
+       /* text-shadow:2px 1px lightsalmon; */
+         text-decoration: none;
+         opacity:0.9;
+         font-weight: bolder;
+       }
+       #nav ul li a:hover{
+         opacity:1;
+         font-size:1.5rem;
+       } 
+     #nav .checkbtn{
+       display:none;
+     }
+     #check{
+       display: none;
+     }
+     #nav #checked{
+       display: none;
+     }
+     .footer{
+        height:60vh;
+      }
+      .footer ul li{
+          font-size: 1.5rem;
+      }
+      .footer h2{
+          font-size: 2rem;
+      }
+      .footer p{
+        padding-top: 300px;
+      }
+      .footer .col{
+        width: 30%;
       }
       @keyframes animate1{
         from{
@@ -120,24 +221,14 @@
         }
       }
       .footer #line{
-        animation-name: animate1;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        border-radius: 100px;
-        border:2px solid lightslategray;
         position: relative;
-        top:130px;
-        right:200px;
+        top:100px;
+        left:40px;
       }
-      .footer p{
-        padding-top: 150px;
-        color:#d9dfd7;
-        font-size: 1rem;
+      .footer .col .fa {
+        padding: 17px 17px 17px 17px;
+        width: 20px;
+        height:20px;
+        margin:0 8px 20px 8px;
       }
-      .footer .col{
-        width: 30%;
-        height: auto;
-        float: left;
-        margin-top: -20px;
-      }
+    }

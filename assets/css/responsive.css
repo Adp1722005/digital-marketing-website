@@ -121,3 +121,23 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	
 }
 
+@media(min-width:767px){
+	#ContactUs div{
+			margin-left:250px;
+			margin-top:50px;
+		}
+	}
+@media(min-width:768px) and (max-width:1023px){
+	#ContactUs div{
+			margin-left:270px;
+			margin-top:120px;
+		}
+	}
+@media(min-width:1024px) and (max-width:1440px){
+	#ContactUs div{
+			display:inline;
+			float:left;
+			margin-left:100px;
+			margin-top:10px;
+		}
+	}

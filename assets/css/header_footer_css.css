@@ -1,6 +1,8 @@
+
 body{
     width:100%;
 }
+/* Header section CSS */
 #nav {
     width:100%;
     height:90px;
@@ -10,22 +12,8 @@ body{
     z-index:1;
     display: block;
     }
-    #nav .checkbtn{
-      font-size:50px;
-      float:right;
-      line-height:110px;
-      margin-right:40px;
-      cursor: pointer;
-      display:block;
-    }
-    #nav input{
-      display: none;
-    }
-    #nav #checked{
-      display:none;
-    } 
     
-    #nav #logo{
+#logo{
      width:50px; 
      display:inline-block;
      border: 3px ridge #0e49b5;
@@ -34,7 +22,7 @@ body{
      position: relative;
      top: 7px;
     }
-    #nav .name{
+.name{
       display: inline-block;
       margin-top: 10px;
       padding-top: 0;
@@ -43,7 +31,7 @@ body{
       font-family: 'Times new roman';
     }
     
-     #nav ul{
+#nav ul{
       position:fixed;
       width:100%;
       height:40vh;
@@ -54,28 +42,43 @@ body{
       opacity:0.5;
     }
     
-    #nav ul li{
+#nav ul li{
       display:block;
       list-style-type: none;
       margin-top: 4em;
       color:white;
     }
-    #nav ul li a{
+#nav ul li a{
       font-size:20px;
       color:#ffffff;
       font-weight: bolder;
       text-decoration: none;
     }
-    #check:checked ~ul{
+    /* For toggle bar in mobile */
+.checkbtn{
+      font-size:50px;
+      float:right;
+      line-height:110px;
+      margin-right:40px;
+      cursor: pointer;
+      display:block;
+    }
+input{
+      display: none;
+    }
+#checked{
+      display:none;
+    } 
+#check:checked ~ul{
       left:0;
     } 
     
-    .fa-bars{
+.fa-bars{
       font-size:50px;
       line-height: 1.5;
     }
-
-    .footer{
+/* Footer Section CSS */
+.footer{
         text-align: center;
         background-color:#000000;
         width:100%;
@@ -84,25 +87,25 @@ body{
         margin:-8px 0 0 -8px;
       }
       
-      .footer ul li{
+.footer ul li{
         list-style: none;
         font-size: 1rem;
         color:#e1e5df;
         text-align: center;
       }
       
-      .footer ul li a{
+.footer ul li a{
         color:#e1e5df;
         text-decoration: none;
       }
-      .footer h2{
+.footer h2{
         font-size: 1.5rem;
         color: #e1e5df;
         text-align: center;
         padding: 20px 10px 0 30px;
         font-family: 'Times New Roman';
       }
-      .footer .col .fa {
+.footer .col .fa {
         padding: 10px 10px 10px 10px;
         width: 20px;
         height:20px;
@@ -113,18 +116,19 @@ body{
         background-color: darkblue;
         color: #ffffff;
       }
-      .footer p{
+.footer p{
         padding-top: 0px;
         color:#d9dfd7;
         font-size: 1rem;
       }
-      .footer .col{
+.footer .col{
         width: 100%;
         height: auto;
         float: left;
         margin-top: -20px;
       }
-      @keyframes animate1{
+      /* Animation in hr tag */
+@keyframes animate1{
         from{
           width: 10px;
         }
@@ -132,7 +136,7 @@ body{
           width:200px;
         }
       }
-      .footer #line{
+#line{
         animation-name: animate1;
         animation-duration: 5s;
         animation-iteration-count: infinite;
@@ -141,8 +145,9 @@ body{
         border:2px solid lightslategray;
         margin: 25px 100px 5px 50px;
       }
-      @media screen and (min-width: 768px) {
-        @keyframes animate1{
+      /* For laptop */
+@media screen and (min-width: 768px) {
+    @keyframes animate1{
             from{
               width: 10px;
             }
@@ -150,7 +155,7 @@ body{
               width:400px;
             }
           }
-           .footer #line{
+    #line{
             position: relative;
             bottom:20px;
             left:175px;
@@ -158,12 +163,12 @@ body{
           }
           
       }
-
-      @media screen and (min-width: 1024px){
-        #nav{
+/* For laptop */
+@media screen and (min-width: 1024px){
+    #nav{
          height:15vh;
        } 
-       #nav ul{
+    #nav ul{
          float: right;
          position: relative;
          bottom:500px;
@@ -171,48 +176,48 @@ body{
            left:300px;
            background-color: transparent;
        }
-       #nav ul li {
+    #nav ul li {
           display:inline;
            margin-bottom: -1em;
              padding-right: 2em;
              position: relative;
              bottom:160px;
        }
-       #nav ul li a{
+    #nav ul li a{
        /* text-shadow:2px 1px lightsalmon; */
          text-decoration: none;
          opacity:0.9;
          font-weight: bolder;
        }
-       #nav ul li a:hover{
+    #nav ul li a:hover{
          opacity:1;
          font-size:1.5rem;
        } 
-     #nav .checkbtn{
+    .checkbtn{
        display:none;
      }
-     #check{
+    #check{
        display: none;
      }
-     #nav #checked{
+    #checked{
        display: none;
      }
-     .footer{
+    .footer{
         height:60vh;
       }
-      .footer ul li{
+    .footer ul li{
           font-size: 1.5rem;
       }
-      .footer h2{
+    .footer h2{
           font-size: 2rem;
       }
-      .footer p{
+    .footer p{
         padding-top: 300px;
       }
-      .footer .col{
+    .footer .col{
         width: 30%;
       }
-      @keyframes animate1{
+    @keyframes animate1{
         from{
           width: 10px;
         }
@@ -220,15 +225,15 @@ body{
           width:400px;
         }
       }
-      .footer #line{
+    #line{
         position: relative;
         top:100px;
         left:40px;
       }
-      .footer .col .fa {
+    .col .fa {
         padding: 17px 17px 17px 17px;
         width: 20px;
         height:20px;
         margin:0 8px 20px 8px;
       }
-    }
+}

@@ -180,7 +180,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     display: none;
   }
   .footer {
-    height: 60vh;
+    /* height: 60vh; */
   }
   .footer ul li {
     font-size: 1.5rem;
@@ -204,10 +204,11 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
   }
   .footer #line {
     position: relative;
-    top: 100px;
-    left: 40px;
+    /* top: 100px; */
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .footer .col .fa{
+  .footer .col .fa {
     padding: 17px 17px 17px 17px;
     width: 20px;
     height: 20px;

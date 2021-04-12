@@ -88,7 +88,7 @@ body {
 
 .footer ul li {
   list-style: none;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #e1e5df;
   text-align: center;
 }
@@ -123,7 +123,7 @@ body {
 .footer p {
   padding: 0px 10px;
   color: #d9dfd7;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 .footer .col {
   width: 100%;

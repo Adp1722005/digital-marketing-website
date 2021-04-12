@@ -115,6 +115,10 @@ body {
   background-color: darkblue;
   color: #ffffff;
 }
+.footer .col1 .fa:hover{
+  position: absolute;
+  bottom:10px;
+}
 .footer p {
   padding: 0px 10px;
   color: #d9dfd7;

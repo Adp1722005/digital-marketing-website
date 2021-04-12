@@ -63,7 +63,7 @@
 #ContactUs .d1 span input[type="submit"] {
   height: 40px;
   background: white;
-  border-radius: 20px;
+  border-radius: 16px;
   margin: 0 2px;
   outline: none;
   padding: 10px 14px;
@@ -71,11 +71,16 @@
   color: #a47d75;
 
   /* shadow effect */
-  -moz-box-shadow: 1px 1px 5px #afafaf, -1px -1px 5px #d6d6d6;
-  -webkit-box-shadow: 1px 1px 5px #afafaf, -1px -1px 5px #d6d6d6;
-  box-shadow: 1px 1px 5px #afafaf, -1px -1px 5px white;
+  -moz-box-shadow: inset 1px 1px 8px #b1b1b1, inset -1px -1px 8px white;
+  -webkit-box-shadow: inset 1px 1px 8px #b1b1b1, inset -1px -1px 8px white;
+  box-shadow: inset 1px 1px 8px #b1b1b1, inset -1px -1px 8px white;
 }
-
+#ContactUs .d1 span input[type="submit"] {
+  /* shadow effect */
+  -moz-box-shadow: 1px 1px 8px #b1b1b1, -1px -1px 8px white;
+  -webkit-box-shadow: 1px 1px 8px #b1b1b1, -1px -1px 8px white;
+  box-shadow: 1px 1px 8px #b1b1b1, -1px -1px 8px white;
+}
 /* for fix width of all input tag  */
 #ContactUs .d1 span .t1 {
   width: calc(150px - 2px);
@@ -96,14 +101,15 @@
 }
 
 #ContactUs .d1 {
+  width: 440px;
   padding: 10px;
   height: auto;
   text-align: center;
   border-radius: 0 20px 0 20px;
 
-  -moz-box-shadow: 1px 1px 5px #afafaf, -1px -1px 5px #d6d6d6;
-  -webkit-box-shadow: 1px 1px 5px #afafaf, -1px -1px 5px #d6d6d6;
-  box-shadow: 1px 1px 5px #afafaf, -1px -1px 5px white;
+  -moz-box-shadow: 1px 1px 10px #afafaf, -1px -1px 10px #d6d6d6;
+  -webkit-box-shadow: 1px 1px 10px #afafaf, -1px -1px 10px #d6d6d6;
+  box-shadow: 1px 1px 10px #afafaf, -1px -1px 10px white;
 
   background: linear-gradient(15deg, #a2b29f, #0000);
   background: white;

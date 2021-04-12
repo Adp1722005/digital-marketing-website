@@ -39,8 +39,8 @@
 				border-radius:15px;
 				margin:2px;
 			}
-			#ContactUs .d1 .f1{
-				padding:10px;
+			#ContactUs .f1{
+				//padding:10px;
 				height:auto;
 				text-align:center;
 				-moz-box-shadow: 0 0 5px 2px #5b8a72;

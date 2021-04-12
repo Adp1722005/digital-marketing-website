@@ -12,7 +12,7 @@ body {
   display: block;
 }
 
-#logo {
+#nav #logo {
   width: 50px;
   display: inline-block;
   border: 3px ridge #0e49b5;
@@ -21,7 +21,7 @@ body {
   position: relative;
   top: 7px;
 }
-.name {
+#nav .name {
   display: inline-block;
   margin-top: 10px;
   padding-top: 0;
@@ -54,7 +54,7 @@ body {
   text-decoration: none;
 }
 /* For toggle bar in mobile */
-.checkbtn {
+#nav .checkbtn {
   font-size: 50px;
   float: right;
   line-height: 110px;
@@ -65,14 +65,14 @@ body {
 #nav input {
   display: none;
 }
-#checked {
+#nav #checked {
   display: none;
 }
-#check:checked ~ ul {
+#nav #check:checked ~ ul {
   left: 0;
 }
 
-.fa-bars {
+#nav .fa-bars {
   font-size: 50px;
   line-height: 1.5;
 }
@@ -135,7 +135,7 @@ body {
     width: 200px;
   }
 }
-#line {
+.footer #line {
   animation-name: animate1;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -154,7 +154,7 @@ body {
       width: 400px;
     }
   }
-  #line {
+  .footer #line {
     position: relative;
     bottom: 20px;
     left: 175px;
@@ -191,7 +191,7 @@ body {
     opacity: 1;
     font-size: 1.5rem;
   }
-  .checkbtn {
+  #nav .checkbtn {
     display: none;
   }
   #check {
@@ -223,12 +223,12 @@ body {
       width: 400px;
     }
   }
-  #line {
+  .footer #line {
     position: relative;
     top: 100px;
     left: 40px;
   }
-  .col .fa {
+  .footer .col .fa {
     padding: 17px 17px 17px 17px;
     width: 20px;
     height: 20px;

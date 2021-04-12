@@ -106,8 +106,8 @@ body {
 }
 .footer .col1 .fa {
   padding: 7px 10px 13px 8px;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin: 5px 8px 40px 8px;
   text-align: center;
   text-decoration: none;
@@ -116,7 +116,7 @@ body {
   color: #ffffff;
 }
 .footer p {
-  padding-top: 0px;
+  padding: 0px 5px;
   color: #d9dfd7;
   font-size: 1rem;
 }

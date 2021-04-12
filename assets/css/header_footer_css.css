@@ -116,7 +116,7 @@ body {
   color: #ffffff;
 }
 .footer .col1 .fa:hover{
-  position: absolute;
+  position: relative;
   bottom:10px;
 }
 .footer p {
@@ -124,7 +124,7 @@ body {
   color: #d9dfd7;
   font-size: 1.25rem;
 }
-.footer .col {
+.footer .col1 {
   width: 100%;
   height: auto;
   float: left;

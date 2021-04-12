@@ -122,3 +122,95 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     /* margin-top: 10px; */
   }
 }
+/*  For header and footer*/
+/* For tablet */
+@media screen and (min-width: 768px) {
+  @keyframes animate1 {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 400px;
+    }
+  }
+  .footer #line {
+    position: relative;
+    bottom: 20px;
+    left: 175px;
+    margin: 0;
+  }
+}
+/* For laptop */
+@media screen and (min-width: 1024px) {
+  #nav {
+    height: 15vh;
+  }
+  #nav ul {
+    float: right;
+    position: relative;
+    bottom: 500px;
+    margin: 0.5em;
+    left: 300px;
+    background-color: transparent;
+  }
+  #nav ul li {
+    display: inline;
+    margin-bottom: -1em;
+    padding-right: 2em;
+    position: relative;
+    bottom: 160px;
+  }
+  #nav ul li a {
+    /* text-shadow:2px 1px lightsalmon; */
+    text-decoration: none;
+    opacity: 0.9;
+    font-weight: bolder;
+  }
+  #nav ul li a:hover {
+    opacity: 1;
+    font-size: 1.5rem;
+  }
+  #nav .checkbtn {
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  #checked {
+    display: none;
+  }
+  .footer {
+    height: 60vh;
+  }
+  .footer ul li {
+    font-size: 1.5rem;
+  }
+  .footer h2 {
+    font-size: 2rem;
+  }
+  .footer p {
+    padding-top: 300px;
+  }
+  .footer .col {
+    width: 30%;
+  }
+  @keyframes animate1 {
+    from {
+      width: 10px;
+    }
+    to {
+      width: 400px;
+    }
+  }
+  .footer #line {
+    position: relative;
+    top: 100px;
+    left: 40px;
+  }
+  .footer .col .fa {
+    padding: 17px 17px 17px 17px;
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 20px 8px;
+  }
+}

@@ -163,6 +163,9 @@ overflow-x:hidden;
       width: 400px;
     }
   }
+	.footer .col1{
+		width:50%;
+	}
   .footer #line {
     position: relative;
     bottom: 20px;

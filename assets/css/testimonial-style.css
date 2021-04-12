@@ -8,8 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  line-height: inherit;
 }
 .testimonial-title {
   text-align: center;
@@ -79,7 +77,6 @@
   line-height: 1.3rem;
   text-align: center;
   font-style: italic;
-  font-size: 1rem;
 }
 .testimonial-content .box .about-person {
   display: flex;

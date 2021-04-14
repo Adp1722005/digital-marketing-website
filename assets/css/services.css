@@ -42,22 +42,21 @@
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
-    .img1 {
+      .img1 {
 
-        width: 300px;
+        width: 400px;
         height: 230px;
   }
     .img2 {
 
-        width: 350px;
+        width: 415px;
         height: 230px;
       
   }
     .img3 {
 
-        width: 370px;
-        height: 240px;
-      
+        width: 410x;
+        height: 230px;
 }
     .img4 {
 

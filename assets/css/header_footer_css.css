@@ -99,6 +99,7 @@ body {
   color: gold;
   background-color: transparent;
   cursor: pointer;
+  float:right;
 }
 #nav ul button .fa{
   margin-left: 8px;

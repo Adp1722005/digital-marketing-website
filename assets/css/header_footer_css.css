@@ -223,6 +223,7 @@ body {
 .footer #line {
   position: relative;
   margin-top: 50px;
+  width:300px;
   bottom: 20px;
   left: 50%;
 /*   transform: translateX(-50%); */

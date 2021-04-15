@@ -236,24 +236,9 @@ body {
   .footer .col1 {
     width: 30%;
   }
-  /* @keyframes animate1 {
-    from {
-      width: 10px;
-    }
-    to {
-      width: 400px;
-    }
-  } */
-  /* .footer #line {
-    position: relative;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-  } */
-  /* .footer .col1 .fa {
-    padding: 17px 17px 17px 17px;
-    width: 20px;
-    height: 20px;
-    margin: 0 8px 20px 8px;
-  } */
+}
+@media screen and (min-width: 1100px) {
+  #nav ul li{
+    padding:9px;
+  }
 }

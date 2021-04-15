@@ -91,7 +91,6 @@ body {
 }
 #nav ul li a:hover{
   color:#ffa500;
-  background-color: linear-gradient(blue,white);
 }
 #nav ul button{
   border:3px inset #ffa500;
@@ -156,6 +155,9 @@ body {
 .footer ul li a {
   color: #e1e5df;
   text-decoration: none;
+}
+#nav ul li a:hover{
+  color:#007bff;
 }
 .footer h2 {
   font-size: 1.5rem;

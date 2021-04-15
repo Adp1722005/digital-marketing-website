@@ -76,7 +76,7 @@ body {
  margin-bottom:25px;
  margin-left:300px;
   position:relative;
-  bottom:60px;
+  bottom:58px;
 }
 
 #nav ul li {
@@ -232,7 +232,7 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate; */
   border-radius: 100px;
-  border: 1px solid #007bff;
+  color: #007bff;
   /* margin: 25px 100px 5px 50px; */
 }
 @media screen and (min-width: 1024px) {

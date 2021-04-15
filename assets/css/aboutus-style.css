@@ -3,6 +3,21 @@
   padding: 0;
   font-family: "open sans",sans-serif,Arial;
 }
+.img{
+        margin:auto;
+        text-align: center;
+        box-sizing: border-box;
+        width: 220px;
+        height: 60px;
+        padding: 15px;  
+        border: 5px solid rgb(233, 225, 225);
+        background: -webkit-linear-gradient(left, red , blue);
+        background: -o-linear-gradient(right, red, blue); 
+        background: -moz-linear-gradient(right, red, blue);
+        background: linear-gradient(to right, red , blue);
+        color: white;
+        font-size: 16px;
+    }
 .about-section{
   width: 100%;
   background: #f1f1f1;

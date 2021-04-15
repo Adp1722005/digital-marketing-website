@@ -156,7 +156,6 @@ body {
 .team-msg .team-msg--title {
   max-width: 600px;
   padding: 2rem 0 2rem;
-  line-height: 1rem;
 }
 .team-msg .content-inner {
   display: flex;
@@ -167,7 +166,7 @@ body {
   max-width: 800px;
 }
 .team-msg .content-inner .box {
-  width: 30%;
+  width: 250px;
   height: 150px;
   padding: 1rem;
   margin: 0.5rem 1rem;
@@ -175,6 +174,7 @@ body {
   border-radius: 20px;
   border: 1px solid rgba(128, 128, 128, 0.363);
   box-shadow: 0 0px 5px rgba(255, 255, 255, 0.8);
+  box-sizing: content-box;
 
   transition: 0.3s all ease;
 }
@@ -219,5 +219,10 @@ body {
   }
   .team-page-landing .title-text .rotated {
     right: -5%;
+  }
+}
+@media (max-width: 480px) {
+  .team-msg .content-inner .box {
+    width: 200px;
   }
 }

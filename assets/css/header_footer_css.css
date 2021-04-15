@@ -96,7 +96,8 @@ body {
 #nav ul button{
   border:3px inset #ffa500;
   font-size: 25px;
-  color: gold;
+  color: #ffa500;
+  font-weight:bold;
   background-color: transparent;
   cursor: pointer;
   float:right;

@@ -76,7 +76,7 @@ body {
  margin-bottom:25px;
  margin-left:300px;
   position:relative;
-  bottom:65px;
+  bottom:70px;
 }
 
 #nav ul li {
@@ -95,9 +95,8 @@ body {
 }
 #nav ul button{
   border:3px inset #ffa500;
-  font-size: 25px;
+  font-size: 15px;
   color: #ffa500;
-  font-weight:bold;
   background-color: transparent;
   cursor: pointer;
   float:right;

@@ -93,6 +93,20 @@ body {
   color:#ffa500;
   background-color: linear-gradient(blue,white);
 }
+#nav ul button{
+  border:3px inset #ffa500;
+  font-size: 25px;
+  color: gold;
+  background-color: transparent;
+  cursor: pointer;
+}
+#nav ul button .fa{
+  margin-left: 8px;
+}
+#nav ul button:hover{
+  background-image: linear-gradient(yellow,gold,#ffa500,orange) ;
+  color: #ffffff;
+}
 /* For toggle bar in mobile 
 #nav .checkbtn {
   font-size: 50px;

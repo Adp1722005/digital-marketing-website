@@ -222,6 +222,11 @@ body {
     width: 60%;
   }
 } */
+.footer #line{
+  opacity:0.7;
+  width:60%;
+  text-align:center;
+}
 /* .footer #line {
   position: relative;
   right:200px;

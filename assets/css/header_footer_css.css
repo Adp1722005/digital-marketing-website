@@ -61,7 +61,7 @@ body {
   /* margin-top: 10px; */
   padding-top: 0;
   position: relative;
-  top:35px;
+  top:20px;
   font-family: helvetica;
   color:#ffffff;
   font-weight:lighter;
@@ -76,7 +76,7 @@ body {
  margin-bottom:25px;
  margin-left:300px;
   position:relative;
-  bottom:45px;
+  bottom:55px;
 }
 
 #nav ul li {

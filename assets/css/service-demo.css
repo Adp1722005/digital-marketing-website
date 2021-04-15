@@ -86,7 +86,7 @@
 .btn:hover {
   letter-spacing: 6px;
 }
-
+/*
 .pricing {
   width: 100%;
   padding: 3rem 0;
@@ -209,6 +209,7 @@
   right: calc(30% + 15px);
   opacity: 1;
 }
+*/
 .service-contact {
   padding: 3rem 0;
 }

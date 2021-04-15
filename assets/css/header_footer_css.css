@@ -225,7 +225,7 @@ body {
   margin-top: 50px;
   bottom: 20px;
   left: 50%;
-  transform: translateX(-50%);
+/*   transform: translateX(-50%); */
 
 /*   animation-name: animate1;
   animation-duration: 5s;

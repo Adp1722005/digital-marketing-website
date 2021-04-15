@@ -156,7 +156,7 @@ body {
   color: #e1e5df;
   text-decoration: none;
 }
-#nav ul li a:hover{
+.footer ul li a:hover{
   color:#007bff;
 }
 .footer h2 {
@@ -222,23 +222,23 @@ body {
     width: 60%;
   }
 } */
-.footer #line {
+/* .footer #line {
   position: relative;
   right:200px;
   margin-top: 50px;
   width:500px;
   bottom: 20px;
   left: 50%;
-/*   transform: translateX(-50%); */
+  transform: translateX(-50%); 
 
-/*   animation-name: animate1;
+  animation-name: animate1;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-direction: alternate; */
+  animation-direction: alternate;
   border-radius: 100px;
   color: #007bff;
-  /* margin: 25px 100px 5px 50px; */
-}
+   margin: 25px 100px 5px 50px; 
+} */
 @media screen and (min-width: 1024px) {
   .footer {
     /* height: 60vh; */

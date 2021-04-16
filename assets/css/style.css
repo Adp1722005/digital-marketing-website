@@ -59,6 +59,7 @@
     float:right;
     padding:10px;
     z-index:99;	
+    right:0;
 }
 #scrollToTop:hover{
 	background-color:#30475e;

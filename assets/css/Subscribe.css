@@ -4,25 +4,16 @@
 	padding: 0;
 }
 
-.holder-container{
-	display: flex;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	align-self: center;
-}
+
 
 .mother-container{
 	position: relative;
-	margin: 10px auto;
 	height: 50px;
 	width: 400px;
 	display: flex;
 	text-align: center;
 	align-items: center;
-	justify-content: center;
-	align-self: center;
-	
+	justify-content: flex-end;
 
 }
 .mother-container .clc-1{

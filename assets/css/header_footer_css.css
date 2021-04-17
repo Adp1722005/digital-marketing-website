@@ -1,48 +1,26 @@
-html {
-  overflow-x: hidden;
-}
-body {
-  width: 100%;
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+  padding: 0; 
 }
 /* Header section CSS */
-#nav {
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 90px;
+  height: 70px;
   background-color: #000000;
-  margin: -8px 0 0 -8px;
-  padding: 0;
   z-index: 1;
-  display: block;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
   color:#ffffff;
 }
 
-/* #nav ul {
-  float: right;
-  position: relative;
-  bottom: 500px;
-  margin: 0.5em;
-  left: 250px;
-
-} */
-/* #nav ul li {
-  display: inline;
-  margin-bottom: -1em;
-  padding-right: 2em;
-  position: relative;
-  bottom: 160px;
-} */
-/* #nav ul li a {
-   text-shadow:2px 1px lightsalmon; 
-  text-decoration: none;
-  font-weight: bolder;
-}
-#nav ul li a:hover {
-  font-size: 1.5rem;
-} */
-#nav #logo {
+nav .img-logo #logo{
   width: 70px;
   display: inline-block;
   border: 3px ridge #000000;
@@ -52,84 +30,92 @@ body {
   position: relative;
   top: 7px;
 }
-#nav .row{
-  display: flex;
-  flex-wrap: wrap;
-} 
-#nav .name {
+
+nav .img-logo .name{
   display: inline-block;
   /* margin-top: 10px; */
   padding-top: 0;
-  position: relative;
-  top:20px;
+  position: fixed;
+  top: 30px;
+  left: 85px;
   font-family: helvetica;
   color:#ffffff;
   font-weight:lighter;
 }
-#nav .name .title{
+nav .name .title{
   color:#ffa500;
   font-weight:bolder;
 }
 
-#nav ul {
- float:right;
- margin-bottom:25px;
- margin-left:300px;
-  position:relative;
-  bottom:58px;
+nav ul{
+ display: flex;
+ list-style: none;
+
+}
+nav ul li{
+  margin: 0 5px;
 }
 
-#nav ul li {
-  display: inline;
-  padding:5px;
-}
-#nav ul li a {
-  font-size: 20px;
+nav ul li a{
+  font-size: 17px;
   color: #ffffff;
   font-weight: bolder;
   text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+
+  
 }
-#nav ul li a:hover{
-  color:#ffa500;
-}
-#nav ul button{
-  border:3px inset #ffa500;
-  font-size: 15px;
-  color: #ffa500;
-  background-color: transparent;
-  cursor: pointer;
-  float:right;
-}
-#nav ul button .fa{
-  margin: 0 5px;
-}
-#nav ul button:hover{
-  background-image: linear-gradient(yellow,gold,#ffa500,orange) ;
-  color: #ffffff;
-}
-/* For toggle bar in mobile 
-#nav .checkbtn {
-  font-size: 50px;
-  float: right;
-  line-height: 110px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: block;
-}
-#nav input {
-  display: none;
-}
-#nav #checked {
-  display: none;
-}
-#nav #check:checked ~ ul {
-  left: 0;
+nav ul li a:hover{
+  color: black;
+  background-color: white;
 }
 
-#nav .fa-bars {
-  font-size: 50px;
-  line-height: 1.5;
-}*/
+
+#click-here{
+  display: none;
+}
+/*responiveness for NaV*/
+nav .menu-bar i{
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+@media screen and (max-width: 1046px){
+  nav .menu-bar i{
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    top: 70px;
+    left: -100%;
+     background-color: #000000;
+     height: 100vh;
+     width: 100%;
+     display: block;
+     text-align: center;
+     transition: all 0.3s ease;
+  }
+
+  #click-here:checked ~ ul{
+    left: 0%;
+  }
+  nav ul li{
+    margin: 20px 0;
+  }
+  nav ul li a{
+    font-size: 16px;
+    display: block;
+  }
+  nav ul li a:hover{
+  color: greenyellow;
+  background: none;
+}
+
+}
+
+
 /* Footer Section CSS */
 .footer {
   text-align: center;
@@ -147,9 +133,9 @@ body {
 }
 .footer ul li {
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #e1e5df;
-  text-align: center;
+  text-align: left;
 }
 
 .footer ul li a {
@@ -180,8 +166,8 @@ body {
   text-align: center;
 }
 .footer .social-links a i {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
 }
 .footer .social-links a:hover {
   background-color: #007bff;
@@ -205,7 +191,7 @@ body {
 .footer p {
   padding: 0px 10px;
   color: #d9dfd7;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .footer .col1 {
   width: 320px;
